@@ -33,7 +33,7 @@ antsRegistration --verbose 1 \
                    --shrink-factors 2x2x1 \
                    --smoothing-sigmas 2x1x0vox \
                    --masks [${maskImage},NULL] \
-                 --transform SyN[0.1,26,0] \
+                 --transform SyN[0.1,3,0] \
                    --metric MI[${fixedImage},${movingImage},1,32] \
                    --convergence [50x10,1e-6,10] \
                    --shrink-factors 2x1 \
